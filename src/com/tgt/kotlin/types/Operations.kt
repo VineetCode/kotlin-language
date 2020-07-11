@@ -4,8 +4,8 @@ fun main() {
 
     //Integer Division
     val  a = 5 / 2
-    //println(a == 2.5) //ERROR: Operator '==' cannot be applied to 'Int' and 'Double'
-    println(a)
+
+    //println(a == 2.5) //ERROR: Operator '==' cannot be applied to 'Int' and 'Double
     println(a == 2) //true
 
     val b = 5L / 2
@@ -21,5 +21,4 @@ fun main() {
     //Bitwise Operation
     val e = (1 shl 2) and 0x000FF00
     println(e)
-
 }
